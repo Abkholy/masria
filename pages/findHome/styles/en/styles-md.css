@@ -1,0 +1,93 @@
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+    .card-columns {
+        column-count: 3;
+    }
+    .textUnederCard {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .bestprojectbackground {
+        height: 687px;
+    }
+.imgBack {
+
+    height: 320px !important;
+}
+    .featueres-background-Image {
+        width: 189px;
+        height: 74%;
+        z-index: 12;
+        align-content: right;
+        position: absolute;
+        right: 0%;
+        top: 22%;
+    }
+ 
+    .findHomeBody {
+        padding-left: 6%;
+        padding-right: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .padding{
+        padding-bottom:45px;
+    }
+    .pagination-container{
+        margin-left: 48%;
+
+    }
+    .cardSerchbox{
+        width: 260.475px;
+        height: 649.335px;;
+    }
+  
+    .cardNewProjects {
+        width: 217px;
+    }
+    .filter{
+        margin:12px;
+    }
+    .titlesForm{
+        font-size : 11px;
+        letter-spacing : 0.18px;
+        color : #414042;
+        color : rgb(65, 64, 66);
+    }
+    input{
+        border-bottom: 1px solid #CECECE !important;
+    }
+    select{
+        border-bottom: 1px solid #CECECE !important;
+
+    }
+    .formLocation {
+        display: block;
+        width: 100%;
+        height: calc(2.25rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 12px;
+        font-size: 12px;
+        letter-spacing: 0.19px;
+        color: #414042;
+        color: rgb(65, 64, 66);
+        /* font-weight: 400; */
+        /* line-height: 1.5; */
+        color: #414042;
+        /* background-color: #fff; */
+        /* background-clip: padding-box; */
+        border: 0px solid #ced4da;
+        border-radius: 0rem;
+        transition: border-color 0.15s ease-in-out, box-shadow -0.85s ease-in-out;
+    }
+
+   
+      .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+        background-color:black;
+      }
+      .card-title{
+        padding-right: 30%;
+    }
+}

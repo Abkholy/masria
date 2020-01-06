@@ -1,0 +1,117 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .map {
+      height: 684.333px;
+      z-index: 1;
+      position: relative;
+    }
+  
+   
+    .search {
+      background: #FFFFFF;
+      background: rgba(255, 255, 255, 1);
+      position: absolute;
+      left: 20px;
+      top: 112px;
+      width: 261px;
+      height: 42px;
+      border-radius: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+      filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+      z-index: 2;
+    }
+  
+    .searchInput {
+      display: block;
+      width: 100%;
+      height: calc(2.25rem + 6px);
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #B3B3B3;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+  
+    .searchInput::placeholder {
+      color: #B3B3B3;
+    }
+  
+    .btnOptions {
+      display: inline-block;
+      font-weight: 400;
+      color: #33346E;
+      text-align: right;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: 1rem;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: 0rem;
+      width: 261px;
+      height: 53px;
+      border-bottom-style: Solid;
+      border-bottom-color: #33346E;
+      border-bottom-color: rgba(51, 52, 110, 1);
+      border-bottom-width: 0.5px;
+  
+    }
+  
+    .dropdown-toggle::after {
+      float: left;
+      margin-left: 0.255em;
+      margin-top: 10.255px;
+  
+    }
+  
+    #searchOptionsbox {
+      background: #FFFFFF;
+      background: rgba(255, 255, 255, 1);
+      position: absolute;
+      left: 20px;
+      top: 165px;
+      width: 261px;
+      height: 492px;
+      border-radius: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+      filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+      z-index: 2;
+    }
+  
+    .btnSearch {
+      background: rgba(51, 52, 110, 1);
+      padding-top: 0px;
+      margin-right: 32px;
+      margin-top: 19px;
+      width: 192px;
+      height: 29px;
+      border-radius: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+      filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+    }
+    
+
+.ourProjectsBackground {
+  background: linear-gradient(-90deg, rgba(0, 166, 195, 1) 0%, rgba(0, 129, 173, 1) 50%, rgba(51, 52, 110, 1) 100%);
+  position: relative;
+  height: 531.828px;
+}
+}

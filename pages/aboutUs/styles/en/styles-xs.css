@@ -1,0 +1,160 @@
+body {
+    background-color: #15283610;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* Small devices (portriet phones, 576px and upbaba) */
+@media (min-width: 320px) {
+    .image-text {
+        margin-bottom: -39px;
+    
+    }
+
+    .cardtitle{
+        padding-left: 5%;
+
+    }
+ 
+    .featueres-background-Image {
+        width: 133px;
+        height: 50%;
+        z-index: 12;
+        align-content: right;
+        position: absolute;
+        right: 0%;
+        top: 30%;
+    }
+    .image-size {
+        width: 100% !important;
+        height: 180px !important;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .ourProjects {
+      
+        padding: 50px;
+    }
+ 
+  .card .card-header {
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    }
+    .imgBack {
+        background-image: url("../../../../img/aboutUs/background-01.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100% !important;
+        z-index: 100;
+        height: 470px;
+        
+    }
+
+    .tint {
+        position: relative;
+        float: center;
+    }
+
+    .tint:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(-60deg, rgba(0, 166, 195, 1) 0%, rgba(0, 129, 173, 1) 50%, rgba(51, 52, 110, 1) 100%);
+        opacity: 0.4;
+        -moz-transition: background .3s linear;
+        -webkit-transition: background .3s linear;
+        -o-transition: background .3s linear;
+        transition: background .3s linear;
+    }
+
+    .tint:hover:before {
+        background-color: white;
+        opacity: 0.5;
+    }
+
+
+    .name {
+        background: #FFFFFF;
+        background: rgba(255, 255, 255, 1);
+        height: 40px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+    }
+
+    .message {
+        background: #FFFFFF;
+        background: rgba(255, 255, 255, 1);
+        height: 206px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+    }
+
+    .sendButton {
+        background: #2F366B;
+        background: rgba(47, 54, 107, 1);
+        height: 32px;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+    }
+
+    .bg-dark {
+        background-color: rgba(1, 1, 1, 0.5) !important;
+    }
+
+    .title {
+        font-size : 18px;
+        letter-spacing : 1.8px;
+        color : #0081AD;
+        padding-bottom: 1.750em;
+        padding-top:  3.750em;
+    }
+    .blockquote{
+        margin-top: 5%;
+        font-size : 14px;
+        color : #33346E;
+        opacity : 0.8;
+        filter: alpha(opacity=80) progid:DXImageTransform.Microsoft.Alpha(opacity=80) ;
+    }
+    .missionImage {
+        width: 120px;
+        min-height: 180px;
+        max-height: auto;
+        float: left;
+    }
+
+    .missionImage img {
+        max-width: 100%;
+        height: 180px;
+    }
+    .item{
+        opacity:0.4;
+        transition:.4s ease all;
+        margin:0 20px;
+        transform:scale(.8);
+      }
+    
+      .active .item{
+        opacity:1;
+        transform:scale(1);
+    } 
+    .main-text {
+      
+        padding-top: 46%;
+    }
+}

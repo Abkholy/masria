@@ -1,0 +1,10 @@
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1500px) {
+    .card-columns {
+        column-count: 5;
+    }
+    .card-title{
+        padding-right: 30%;
+    }
+}

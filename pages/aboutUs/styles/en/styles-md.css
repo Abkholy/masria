@@ -1,0 +1,87 @@
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 800px) {
+    .title {
+        font-size : 36px;
+        line-height : 26px;
+        letter-spacing : 3.6px;
+        color : #0081AD;
+        padding-bottom: 1.750em;
+        padding-top:  3.750em;
+    }
+
+    .image-size {
+        width: 100% !important;
+        height: 180px !important;
+    }
+    .name {
+        background: #FFFFFF;
+        background: rgba(255, 255, 255, 1);
+        width: 551px;
+        height: 40px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+    }
+.blockquote{
+    font-size : 16px;
+    line-height : 21px;
+    color : #33346E;
+    opacity : 0.8;
+    filter: alpha(opacity=80) progid:DXImageTransform.Microsoft.Alpha(opacity=80) ;
+}
+    .message {
+        background: #FFFFFF;
+        background: rgba(255, 255, 255, 1);
+        width: 551px;
+        height: 206px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+    }
+    .blockquote{
+        margin-top: 0%;
+
+    }
+    .main-text {
+        padding-top: 7%;
+    }
+    .sendButton {
+        background: #2F366B;
+        background: rgba(47, 54, 107, 1);
+        width: 123px;
+        height: 32px;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+    }
+    .featueres-background-Image {
+        width: 189px;
+        height: 74%;
+        z-index: 12;
+        align-content: right;
+        position: absolute;
+        right: 0%;
+        top: 22%;
+    }
+    .missionImage {
+        width: 120px;
+        min-height: 460px;
+        max-height: auto;
+        float: left;
+    }
+
+    .missionImage img {
+        max-width: 100%;
+        height: 460px;
+    }
+    .card{
+        width: 267.458px !important;
+        border-radius: 8px;
+    }
+}

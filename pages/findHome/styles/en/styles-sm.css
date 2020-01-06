@@ -1,0 +1,23 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+ 
+    .cardSerchbox{
+        width: 260.475px;
+        height: 649.335px;
+    }
+    .bestprojectbackground {
+        height: 541px;
+    }
+    .mobileSerach {
+
+        transform: translateY(120px);
+    
+    }
+    
+    .mobileSerach:hover {
+       
+        transform: translateY(55px);
+    
+    }
+}

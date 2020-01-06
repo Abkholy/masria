@@ -1,0 +1,897 @@
+body {
+    background-color: #15283610;
+}
+
+
+
+/* Small devices (portriet phones, 576px and up) */
+@media (min-width: 0px) {
+    .card-title {
+        float: left;
+        font-size: 0.9rem;
+        display: contents;
+
+    }
+
+
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+        margin: 5px 7px;
+        background: #CCCCCC;
+        display: block;
+        transition: opacity 200ms ease;
+        border-radius: 0px;
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background: #33346E;
+
+    }
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 71px;
+    }
+
+    .owlowl .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 0px;
+        position: absolute;
+        z-index: 50;
+        bottom: 5%;
+        left: 59%;
+    }
+
+    .footerRights {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+        color: #0081AD;
+        color: rgb(0, 129, 173);
+        font-weight: 500;
+    }
+
+    .footerContact {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 10px;
+        align-content: center;
+        color: #33346E;
+        color: rgb(51, 52, 110);
+        opacity: 0.8;
+        filter: alpha(opacity=50) progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    }
+
+    .image-size {
+        width: 100% !important;
+        height: 180px !important;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .btmLogo {
+        margin-right: 1em;
+    }
+
+    .navbarButtom {
+        background: #FFFFFF;
+        background: rgba(255, 255, 255, 1);
+        margin-top: 6%;
+        width: 100%;
+
+    }
+
+    .image-new-project-size {
+        width: 100% !important;
+        height: 180px !important;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .projectDetails {
+        position: relative;
+        left: 15%;
+        top: 15%;
+    }
+
+    .projectFontTitle {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: #FFFFFF;
+        color: rgb(255, 255, 255);
+    }
+
+    .projectFontDetails {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #FFFFFF;
+        color: rgb(255, 255, 255);
+        padding-bottom: 0px;
+        font-size: 12px;
+        padding-right: 15px;
+    }
+
+    .discoverBtn {
+        background: rgba(255, 255, 255, 1);
+        width: 149px;
+        height: 40px;
+        font-size: 20px;
+        color: #33346E;
+        padding-top: 4px;
+
+    }
+
+    .background-Image-left-logo {
+        /*To create image referenced in CSS, use \'Export Selected CSS\' command.*/
+        display: none;
+    }
+
+    .projectArrowBackground {
+        background: linear-gradient(90.02deg, rgba(51, 52, 110, 0) 0%, rgba(3, 125, 169, 0.7) 37.99%, rgba(3, 127, 170, 0.86) 71.35%, rgba(2, 134, 174, 0.92) 83.36%, rgba(2, 145, 182, 0.96) 91.9%, rgba(0, 162, 193, 0.99) 98.78%, rgba(0, 166, 195, 1) 100%);
+        position: absolute;
+        z-index: 1;
+        height: 82% !important;
+        width: 120px !important;
+        top: 17.5%;
+        right: 0.001%;
+    }
+
+    .DeveloperSText {
+        text-align: center;
+        font-size: 0.75rem;
+        color: #FFFFFF;
+        color: rgb(255, 255, 255);
+        z-index: 100;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 59%;
+    }
+
+    .DeveloperLogo {
+        text-align: center;
+        z-index: 11;
+        width: 29px !important;
+        height: 29px !important;
+        position: absolute;
+        left: 43%;
+        top: 43%;
+    }
+
+    .bigLogo {
+        left: 46%;
+    }
+
+    .LeftthumbnialsSize {
+        width: 100%;
+        height: 180px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .LeftthumbnialsSize img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .LeftthumbnialsSize::before {
+        content: "";
+        clear: both;
+        display: table;
+        background: linear-gradient(90deg, rgba(0, 166, 195, 1) 0%, rgba(0, 129, 173, 1) 50%, rgba(51, 52, 110, 1) 100%);
+        opacity: 0.5;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+    }
+
+
+    .firstrightTopthumbnialsSize::before {
+        content: "";
+        clear: both;
+        display: table;
+        background: linear-gradient(90deg, rgba(0, 166, 195, 1) 0%, rgba(0, 129, 173, 1) 50%, rgba(51, 52, 110, 1) 100%);
+        opacity: 0.5;
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        filter: alpha(opacity=50) progid:DXImageTransform.Microsoft.Alpha(opacity=50) progid:DXImageTransform.Microsoft.gradient(startColorstr='#00A6C3', endColorstr='#33346E', GradientType=1);
+    }
+
+
+    .firstrightTopthumbnialsSize {
+        width: 100%;
+        height: 180px;
+        position: relative;
+    }
+
+    .firstrightTopthumbnialsSize img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .secondrightTopthumbnialsSize::before {
+        content: "";
+        clear: both;
+        display: table;
+        background: linear-gradient(90deg, rgba(0, 166, 195, 1) 0%, rgba(0, 129, 173, 1) 50%, rgba(51, 52, 110, 1) 100%);
+        opacity: 0.5;
+        position: absolute;
+        z-index: 10;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+    }
+
+
+    .secondrightTopthumbnialsSize {
+        z-index: 5;
+        width: 100%;
+        height: 180px;
+        position: relative;
+    }
+
+    .secondrightTopthumbnialsSize img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .rightBottomthumbnialsSize {
+        width: 100%;
+        height: 180px;
+        position: relative;
+    }
+
+    .rightBottomthumbnialsSize img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .rightBottomthumbnialsSize::before {
+        content: "";
+        clear: both;
+        display: table;
+        background: linear-gradient(90deg, rgba(0, 166, 195, 1) 0%, rgba(0, 129, 173, 1) 50%, rgba(51, 52, 110, 1) 100%);
+        opacity: 0.4;
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        filter: alpha(opacity=40) progid:DXImageTransform.Microsoft.Alpha(opacity=40) progid:DXImageTransform.Microsoft.gradient(startColorstr='#00A6C3', endColorstr='#33346E', GradientType=1);
+    }
+
+
+    .ourProjectsCard {
+        width: 80%;
+        height: 80%;
+        margin-left: 15%;
+        padding-bottom: 15px;
+    }
+
+    .textUnderImage {
+        font-family: 'Cairo', sans-serif;
+        align-content: center;
+    }
+
+    .projectLogo {
+        height: 28px !important;
+        width: 28px !important;
+    }
+
+    .textUnederCard {
+        padding-top: 10px;
+        padding-bottom: 19px;
+        padding-left: 10%;
+    }
+
+    .customNextBtn {
+        height: 63%;
+        width: 63%;
+    }
+
+    .customPrevBtn {
+        height: 63%;
+        width: 63%;
+    }
+
+    .ourProjectsBackground {
+        background: linear-gradient(-90deg, rgba(0, 166, 195, 1) 0%, rgba(0, 129, 173, 1) 50%, rgba(51, 52, 110, 1) 100%);
+        position: relative;
+        height: 420px;
+        z-index: 1;
+    }
+
+
+    .bestprojectbackground {
+        background: linear-gradient(-90deg, rgba(0, 166, 195, 1) 0%, rgba(0, 129, 173, 1) 50%, rgba(51, 52, 110, 1) 100%);
+        height: 654px;
+        z-index: 1;
+    }
+
+    .bestprojectbackground::before {
+        content: "";
+        clear: both;
+        display: table;
+        background-image: url("../../img/logoLeft-01.png");
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position-y: 23%;
+        opacity: 0.5;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+    }
+
+    .bestCard {
+        background-color: transparent;
+        border: 0px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0rem;
+        margin-left: 0% !important;
+        margin-right: 0%;
+        margin-top: 2%;
+    }
+
+    .bestCard .card-header {
+        margin-left: 0px;
+    }
+
+
+
+    .ProjectrightArrow {
+        top: 81%;
+        position: absolute;
+        z-index: 500;
+        right: 5%;
+        cursor: pointer;
+    }
+
+
+    .rightArrowBackground {
+        background: linear-gradient(90.02deg, rgba(51, 52, 110, 0) 0%, rgba(3, 125, 169, 0.7) 37.99%, rgba(3, 127, 170, 0.86) 71.35%, rgba(2, 134, 174, 0.92) 83.36%, rgba(2, 145, 182, 0.96) 91.9%, rgba(0, 162, 193, 0.99) 98.78%, rgba(0, 166, 195, 1) 100%);
+        position: absolute;
+        z-index: 1;
+        height: 420px;
+        top: -3.5em;
+        width: 20%;
+        right: -4%;
+
+    }
+
+    .leftArrowBackground {
+        background: linear-gradient(90.02deg, rgba(51, 52, 110, 1) 0%, rgba(3, 125, 169, 0.6) 54.75%, rgba(3, 127, 170, 0.28) 79.09%, rgba(2, 134, 174, 0.16) 87.86%, rgba(2, 145, 182, 0.08) 94.09%, rgba(0, 162, 193, 0.01) 99.11%, rgba(0, 166, 195, 0) 100%);
+        position: absolute;
+        z-index: 1;
+        height: 420px;
+        width: 20%;
+        top: -3.5em;
+        left: -4%;
+    }
+
+    .leftArrow {
+        top: 30%;
+        position: absolute;
+        z-index: 1000;
+        left: 3%;
+        cursor: pointer;
+    }
+
+    .rightArrow {
+        top: 30%;
+        position: absolute;
+        z-index: 5000;
+        right: 3%;
+        cursor: pointer;
+    }
+
+    .projects-background-Image {
+        display: none;
+    }
+
+
+
+
+    .dots {
+        padding: 60px;
+    }
+
+
+
+    .featuresCard {
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        text-align: left;
+        float: left;
+        -webkit-border-radius: 4px;
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#686EDD');
+    }
+
+    .image-text {
+        z-index: 10;
+        margin-bottom: -20px;
+    }
+
+
+
+    .project-status {
+        background-color: rgba(65, 64, 66, 0.7);
+        width: 40px;
+        height: 25px;
+        left: 0%;
+        position: absolute;
+        z-index: 10;
+        top: -20px;
+        border-top-left-radius: 8px;
+
+    }
+
+    .share-button {
+        background-color: rgba(65, 64, 66, 0.7);
+        width: 30px;
+        height: 25px;
+        position: absolute;
+        right: 0%;
+        z-index: 11;
+        top: -20px;
+        border-top-right-radius: 8px;
+
+    }
+
+    .cardtitle {
+        border-left: 3px solid #0081AD;
+        padding-left: 30px;
+        float: left;
+        margin-left: -6px;
+
+    }
+
+    .card-body {
+        flex: 1 1 auto;
+        padding-top: 1.25rem;
+        padding-left: 1px;
+    }
+
+
+    .card-header {
+        padding: 0rem 0rem;
+        margin: -0.25rem;
+        border-radius: 8px;
+
+    }
+
+    .cardNewProjects {
+        width: 80%;
+        border-radius: 8px;
+        margin: 10%;
+
+    }
+
+
+
+    .FeaturesNewProject {
+        font-size: 18px;
+        line-height: 18px;
+        color: #0081AD;
+        margin: 25px;
+    }
+
+    .ourProjects {
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 2.6px;
+        color: #FFFFFF;
+        color: rgb(255, 255, 255);
+        padding: 15px;
+    }
+
+    .bestProjects {
+        position: relative;
+        z-index: 10;
+        text-align: center;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 1.8px;
+        color: #FFFFFF;
+        padding-top: 45px;
+    }
+
+    .bestprojectCardBody {
+        text-align: center;
+
+        position: relative;
+        top: 0%;
+
+    }
+
+
+    .bestprojectText {
+        color: #FFFFFF;
+        padding-bottom: 23px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bmd-form-group {
+        position: relative;
+        padding-top: 0rem;
+    }
+
+    .bmd-form-group .custom-file-control,
+    .bmd-form-group .form-control,
+    .bmd-form-group input::placeholder,
+    .bmd-form-group label {
+        line-height: 1.2;
+    }
+
+    .searchControl {
+        border-bottom-color: rgba(51, 52, 110, 1);
+        border-radius: 0px;
+        border: 0px solid white;
+        border-bottom: 1px solid #33346E;
+    }
+
+    .searchControl::placeholder {
+        font-size: 0.9em;
+        letter-spacing: 1.5px;
+        color: rgb(51, 52, 110);
+        opacity: 0.8;
+    }
+
+    .btnSearchItems {
+        width: 100%;
+        float: left;
+        font-size: 0.9em;
+        color: #33346E !important;
+        opacity: 0.8;
+        margin-top: -12px;
+    }
+
+
+    .item {
+        opacity: 0.3;
+        transition: .4s ease all;
+        margin: 20 40px;
+        transform: scale(.9);
+    }
+
+    .active .item {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .searchBox {
+        background: rgba(255, 255, 255, 1);
+        border-radius: 4px;
+        box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.25);
+        padding: 5px;
+    }
+
+
+    .searchBtn {
+        background: rgba(51, 52, 110, 1);
+        width: 100%;
+        height: 40px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .imgBack {
+        background-image: url("../../img/home/background-01.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100% !important;
+        z-index: 100;
+        height: 360px;
+    }
+
+
+
+
+
+    .main-text {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 24px;
+        color: #FFFFFF;
+        padding-top: 15%;
+
+    }
+
+    .secondryText {
+        font-family: Arial;
+        font-size: 10px;
+        letter-spacing: 1.8px;
+        color: #FFFFFF;
+        color: rgb(255, 255, 255);
+        padding-bottom: 5%;
+        text-transform: uppercase;
+    }
+
+
+    .topNav {
+        background: #33346E;
+        background: rgba(51, 52, 110, 1);
+        height: 23px !important;
+        margin-top: -5px;
+
+    }
+
+    .logo {
+        position: absolute !important;
+        background-color: white;
+        left: 5%;
+        z-index: 100;
+        height: 80px;
+        width: 78px;
+        top: -32%;
+    }
+
+    .logoImg {
+        position: absolute;
+        top: 7px;
+        left: 5px;
+        height: 64px;
+        width: 68px;
+    }
+
+
+    .topNavText {
+        color: white;
+        color: #FFFFFF;
+        color: rgb(255, 255, 255);
+        font-size: 0.6em;
+        opacity: 0.5;
+        padding-right: 5px;
+    }
+
+    .mobileDisabled {
+        display: none;
+    }
+
+    .DesktopDisapled {
+        display: flex;
+
+        justify-content: center;
+    }
+
+
+    .topNavLink {
+        font-weight: 500;
+        font-size: 20px;
+        color: rgb(0, 129, 173);
+        float: right;
+        padding-right: 5px;
+        padding-bottom: 30px;
+
+    }
+
+    .topNavLink.active {
+        font-weight: 600;
+        color: rgb(51, 52, 110);
+    }
+
+    .divider {
+        height: 1px;
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: #33346E;
+        ;
+    }
+
+
+    .bestProjectImage {
+        width: 100%;
+        min-height: 120px;
+        max-height: auto;
+        float: right;
+        padding: 5%;
+    }
+
+    .bestProjectImage img {
+        max-width: 100%;
+        height: 220px;
+    }
+
+    .imagePadding {
+        padding: 0px;
+    }
+
+    .bestprojectbackgroundArrow {
+        display: none;
+    }
+
+    .email {
+        background: #FFFFFF;
+        width: 80%;
+        height: 35px;
+        border-radius: 28px;
+        box-shadow: 0px 0px 3px rgba(51, 52, 110, 0.45);
+        position: relative;
+        margin-bottom: 60px;
+
+    }
+
+    .email::placeholder {
+        position: absolute !important;
+        font-size: 1em;
+        line-height: 26px;
+        letter-spacing: 1.8px;
+        color: #0081AD;
+        padding-left: 10px;
+    }
+
+    .emailbtn {
+        background: #33346E;
+        position: absolute;
+        height: 35px;
+        border-radius: 0px 28px 28px 0px;
+        z-index: 9;
+        top: 0px;
+        padding-top: 5px;
+        right: 10%;
+
+    }
+
+    .btmLinkActive {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1em;
+        color: rgb(51, 52, 110);
+        font-weight: 500;
+        padding-left: 2em;
+
+    }
+
+    .btmNavLink {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1em;
+        color: #0081AD;
+        color: rgb(0, 129, 173);
+        font-weight: 500;
+    }
+
+    .btmNavLink.active {
+        color: #33346E;
+    }
+
+    .btmNav {
+        flex: 1;
+        margin: auto !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subscription {
+        position: relative;
+    }
+
+    .tpNav {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobileSerach {
+        width: 290px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        background: white;
+        border-radius: 50px;
+        transition: width 0.4s, height 0.4s, transform 0.4s linear;
+        transform: translateY(100px);
+        box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.25);
+
+    }
+
+    .mobileSerach:hover {
+        width: 320px;
+        height: 220px;
+        border-radius: 20px;
+        transition: width 0.5s, height 0.1s, transform 0.5s linear;
+        transition-property: inherit;
+        transform: translateY(-20px);
+        padding: 2px;
+        box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.25);
+
+    }
+
+    .searchContents {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+        display: none;
+    }
+
+    .searchIcon {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        color: rgb(51, 52, 110);
+        opacity: 0.8;
+
+    }
+
+    .mobileSerach:hover>.searchIcon {
+        opacity: 0;
+        transition: opacity 0.5s;
+        display: none;
+
+    }
+
+    .mobileSerach:hover>.searchContents {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s, opacity 0.8s linear;
+    }
+
+    .searchmobile {
+        width: 280px !important;
+        border-radius: 50px;
+        transition: width 2s;
+        margin: 10px;
+
+    }
+
+    .searchmobile:placeholder-shown {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        color: rgb(51, 52, 110);
+        opacity: 0.8;
+    }
+
+    .mobileSearchDropdown {
+        width: 100%;
+        font-size: 0.9em;
+        color: #33346E !important;
+        opacity: 0.8;
+        border-radius: 0px;
+        border-bottom: #33346E solid 1px;
+        margin-bottom: 10px;
+    }
+
+    .mobileSearchDropdown:nth-child(n+2) {
+        border-left: #33346E solid 1px;
+
+    }
+
+    .dropdown-menu {
+        width: 90%;
+
+        opacity: 0.9;
+
+    }
+
+    .dropdown-menu .dropdown-item {
+        font-size: 0.9em;
+        color: #33346E !important;
+    }
+
+    .searchBtnMobile {
+        background: rgba(51, 52, 110, 1);
+        width: 280px !important;
+        height: 40px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        margin: 10px;
+        transition: width 1s;
+    }
+
+}
